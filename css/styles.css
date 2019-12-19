@@ -2,48 +2,7 @@
   box-sizing: border-box;
 }
 
-.checked {
-  color: orange;
-}
-
-/* Three column layout */
-.side {
-  width: 15%;
-}
-
-.middle {
-  float: left;
-  width: 60%;
-}
-
-/* Place text to the right */
-.right {
-  text-align: right;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The bar container */
-.bar-container {
-  width: 100%;
-  background-color: #f1f1f1;
-  text-align: center;
-  color: white;
-}
-
-/* Individual bars */
-.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
-.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
-.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
-.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
-.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
-
-/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+/* Responsive layout - make the columns stack on footer1 of each other instead of next to each other */
 @media (max-width: 400px) {
   .side, .middle {
     width: 100%;
@@ -54,8 +13,17 @@
 }
 #head1{
   height:50px;
+  background-color:#3399E5;
+  color: white;
 }
-
+ .form-inline{
+   padding-top: 15px;
+   padding-left: 15px;
+   font-size: 15px;
+ }
+ .far {
+   padding-left: 10px;
+ }
 #head2 {
   height: 150px;
   font-family: spirax;
@@ -69,14 +37,14 @@
   height: 100px;
 }
 #social {
-  padding-top: 0px;
+  padding-footer1: 0px;
 }
 #head4{
   height: 100px;
 }
 #impressium{
   padding: 20px;
-  padding-top: 30px;
+  padding-footer1: 30px;
   font-style: gothic;
   font-size: 20px;
   font-family: spirax;
@@ -98,8 +66,17 @@ ul.social-network li {
   text-align: left;
 }
 #profile,#login,#cart{
-  padding-top: 40px;
+  padding-footer1: 40px;
   padding-left: 80px;
+}
+#mission{
+  height: 200px;
+}
+#story{
+  height: 200px;
+}
+.far{
+  padding-top: 5px;
 }
 
 .social-network a.icoFacebook:hover {
@@ -184,7 +161,7 @@ a.socialIcon:hover, .socialHoverClass {
 	.modal-login i {
 		position: absolute;
 		left: 13px;
-		top: 11px;
+		footer1: 11px;
 		font-size: 18px;
 	}
 	.modal-login .form-control {
@@ -199,11 +176,11 @@ a.socialIcon:hover, .socialHoverClass {
 	}
 	.modal-login .hint-text {
 		text-align: center;
-		padding-top: 10px;
+		padding-footer1: 10px;
 	}
 	.modal-login .close {
         position: absolute;
-		top: -5px;
+		footer1: -5px;
 		right: -5px;
 	}
 	.modal-login .btn {
@@ -260,7 +237,7 @@ a.socialIcon:hover, .socialHoverClass {
 }
 
 .smalltext{
-    padding-top: 5px;
+    padding-footer1: 5px;
     font-size: 16px;
 }
 .collapsible {
@@ -294,16 +271,14 @@ a.socialIcon:hover, .socialHoverClass {
 body {
   font-family: gothic;
   font-size: 16px;
+  background-color: #444444;
 }
 h5 {
   font-family: sans-serif;
 }
-#mpesa{
-  padding-top: 44px;
-  border-right-color: inherit;
-}
+
 .card {
-  border-top: none;
+  border-footer1: none;
 }
 #button {
   display: inline-block;
@@ -429,7 +404,7 @@ a {
 .product-add-to-cart {
   overflow: hidden;
   clear: both;
-  margin-top: 10px;
+  margin-footer1: 10px;
 }
 
 .see-more {
@@ -443,12 +418,12 @@ a {
 
 .shopping-cart {
   position: fixed;
-  top: 0;
+  footer1: 0;
   right: 0;
   width: 300px;
   min-heigh: 300px;
   margin-right: 20px;
-  margin-top: 145px;
+  margin-footer1: 145px;
   padding: 20px;
   background: wheat;
 }
@@ -482,70 +457,49 @@ a {
   border-style: inset;
 }
 
+#insurance{
+  background-color: lightblue;
+}
 .icon-bar {
   position: fixed;
-  top: 50%;
+  footer1: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 16px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
+#footer1{
+  background-color: red;
+}
+#career {
+ padding-left: 300px;
 }
 
-.icon-bar a:hover {
-  background-color: #000;
+ul#menu li {
+  display:inline;
+  padding-right: 20px;
+  color: green;
 }
-
-.facebook {
-  background: #3B5998;
-  color: white;
+#menu{
+  padding-top: 15px;
+  text-decoration: none;
 }
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-}
-.card1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
-
-.price {
-  color: grey;
-}
-
-.card1 button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
+#tagline{
+  font-size: 13px;
 }
 
 #mobile {
-  color: blue;
   height: 200px;
+  border: 10px;
+  border-style: solid;
 }
 #footer1 {
-  background-color: #5B0B49;;
+  background-color: green;
 
 }
 #nav1{
   position: relative;
-  background-color:#5B0B49;
+  background-color:white;
 }
 .carousel-item {
   height: 65vh;
