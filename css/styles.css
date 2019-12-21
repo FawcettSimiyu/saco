@@ -71,11 +71,17 @@ ul.social-network li {
 }
 #mission{
   height: 200px;
+  text-align: center;
+  background-color: skyblue;
 }
 #story{
   height: 300px;
   padding-right: 0px;
   text-align: center;
+}
+p {
+  font-size: 16px;
+  font-family: sans-serif;
 }
 .far{
   padding-top: 5px;
@@ -109,6 +115,10 @@ ul.social-network li {
 	.modal-login  .form-group {
 		position: relative;
 	}
+  #navigation{
+    border-bottom: solid;
+    border-color: red;
+  }
 	.modal-login i {
 		position: absolute;
 		left: 13px;
@@ -272,9 +282,15 @@ ul#menu li {
 #mobile {
   height: 200px;
   border: 10px;
-  border-style: solid;
+  border-style: inset;
   text-align: center;
   background-color: white;
+  border-color: lightblue;
+  color: ;
+}
+#carouselExampleIndicators {
+  border-bottom: solid;
+  border-width: thick;
 }
 #footer1 {
   background-color: green;
