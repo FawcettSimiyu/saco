@@ -30,9 +30,9 @@
           </div>
           <div class="col-md-6" id="career">
             <ul id="menu">
-              <li><a href="#" style="color:white">Careers</a></li>
-              <li><a href="#" style="color:white">Media Center</a></li>
-              <li><a href="#" style="color:white">Online Banking</a></li>
+              <li><a href="career.html" style="color:white">Careers</a></li>
+              <li><a href="media.html" style="color:white">Media Center</a></li>
+              <li><a href="index.html" style="color:white">Online Banking</a></li>
             </ul>
           </div>
       </div>
@@ -50,19 +50,19 @@
           <div class="collapse navbar-collapse" id="basicExampleNav">
             <ul class="navbar-nav mr-auto" id="navbar">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home
+                <a class="nav-link" href="index.html">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
                 <li class="nav-item">
-                  <a class="nav-link" href="#brand">About Us</a>
-                </li>s
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
               <li class="nav-item">
-                <a class="nav-link" href="#tool">Products</a>
+                <a class="nav-link" href="product.html">Products</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#shop">Services</a>
+                <a class="nav-link" href="service.html">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#shop">Insurance</a>
@@ -71,7 +71,7 @@
                 <a class="nav-link" href="#shop">Resources</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#shop">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
             <form class="form-inline">
@@ -91,7 +91,7 @@
     </ol>
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
-      <div class="carousel-item active" style="background-image: url('https://assets.website-files.com/59ad2221052e560001d6401f/5a38fb9168365d0001914894_Careers-Open-Graph-Image.png')">
+      <div class="carousel-item active" style="background-image: url('http://prodinet.co.za/prodinet/wp-content/uploads/2019/08/contactus.jpg')">
 
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -107,11 +107,88 @@
   </div>
 </header>
 <div class="card">
-  <div class="card-title">
-    <h4>Metropal Sacco Careers</h4>
-  </div>
   <div class="card-body">
-    <p>We currently don’t have any jobs available. Please check back regularly, as we frequently post new jobs. In the meantime, you can also send through your résumé, which we’ll keep on file.</p>
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+    <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+        <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </form>
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>ADDRESS: K-UNITY BUILDING (MAPA HOUSE) 8TH FLOOR, BIASHARA STREET, KIAMBU TOWN</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>PHONE: +020-2047-678</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>EMAIL: INFO@K-UNITY.CO.KE</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
   </div>
 
 </div>
