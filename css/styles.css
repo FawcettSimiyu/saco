@@ -334,6 +334,7 @@ ul#menu li {
   border-color: #555 transparent transparent transparent;
 }
 
+
 /* Toggle this class - hide and show the popup */
 .popup .show {
   visibility: visible;
