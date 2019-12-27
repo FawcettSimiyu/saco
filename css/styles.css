@@ -32,6 +32,12 @@
   padding-left: 100px;
 
 }
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
 #head3{
   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/05/11/31/2759916d835b5ab.jpg");
   height: 100px;
@@ -278,13 +284,16 @@ ul#menu li {
 #tagline{
   font-size: 13px;
 }
+body{
+  font-family: Garamond;
+}
 
 #mobile {
   height: 200px;
   border: 10px;
   border-style: inset;
   text-align: center;
-  background-color: white;
+  background-color: #8A8E91;
   border-color: lightblue;
   color: ;
 }
